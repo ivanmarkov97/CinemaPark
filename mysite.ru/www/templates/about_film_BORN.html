@@ -1,0 +1,78 @@
+<html>
+<head>
+	<style>
+		 body{
+		background-image: url(../images/background.jpg);
+		background-size: 100%;
+		background-repeat: repeat-x repeat-y;
+		color: #CCCCCC;
+	  }
+	   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 0px 7px 100px; /* Отступы вокруг картинки */
+   }
+
+button.send {
+ 	  font-weight: 700;
+  	  color: white;
+	  width: 150px;
+	  height: 50px;
+	  border: 3px solid rgba(33,155,90, 0);
+  	  border-radius: 5px;
+  	  background: rgb(64,199,129);
+  	  box-shadow: 0 -3px rgba(53,167,110,0) inset;
+	} 
+	button.send:hover { background: rgb(53, 167, 110); }
+	button.send:active {
+  	  background: rgb(33,147,90);
+  	  box-shadow: 0 3px rgb(33,155,90) inset;
+	}
+
+	</style>
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/base.css" rel="stylesheet">
+	<link href="../css/table.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-4">
+			<img src="../images/Born.jpg" width="350" height="500" aling = "rigth">
+		</div>
+		<div class="col-md-8">
+			<table align="center" style="color: #CCCCCC" height="500">
+				<tr><td>год</td><td>2016</td></tr>
+				<tr><td>Страна</td><td>Великобританий, Китай, США</td></tr>
+				<tr><td>Слоган</td><td>Вы его не знаете</td></tr>
+				<tr><td>Режиссер</td><td>Пол Гринграсс</td></tr>
+				<tr><td>Сценарий</td><td>Пол Гринграсс, Кристофер Раус</td></tr>
+				<tr><td>Продюсер</td><td>Мэтт Деймон, Грегори Гудман</td></tr>
+				<tr><td>Оператор</td><td>Бэрри Экройд</td></tr>
+				<tr><td>Композитор</td><td>Дэвид Бакли, Джон Пауэл</td></tr>
+				<tr><td>Художник</td><td>Пол Кирби</td></tr>
+				<tr><td>Монтаж</td><td>Кристофер Раус</td></tr>
+				<tr><td>Жанр</td><td>Боевик, триллер</td></tr>
+				<tr><td>Бюджет</td><td>$120 000 000</td></tr>
+				<tr><td>Сборы в США</td><td>$162 000 000</td></tr>
+				<tr><td>Сборы в мире</td><td>$253 000 000</td></tr>
+				<tr><td>Премьера</td><td>3 июля 2016</td></tr>
+				<tr><td>Рейтинг МРАА</td><td>13</td></tr>
+			</table>
+		</div>
+		<hr>
+		<p style="color: #CCCCCC">
+			Сюжет четвёртой части знаменитой франшизы завязывается вокруг нового главного героя, некого Аарона Кросса (Джереми Реннер), секретного агента правительства, который обучался в той же программе, что и Джейсон Борн, и теперь вынужден столкнуться лицом к лицу с последствиями, вызванными действиями Борна в первых трёх фильмах. Оказавшись вовлечённым в смертоносную сеть заговоров и интриг, Аарон должен разобраться, кто стоит за всем этим, и найти способ выбраться из этой передряги живым. Прошлое покрыто мраком тайн, доверять нельзя никому, а расслабиться — значит умереть. Маятник качнулся, и новая битва не на жизнь, а на смерть началась.
+		</p>
+		<p>
+			<textarea rows="5" cols="157" name="text"></textarea>
+		</p>
+   		 <form action="../index.php" method="post">
+   		 <p>
+   		 	<span>
+   		 		<button class="send">Отправить</button>
+   		 		<button class="send" name="return_to_menu" value="true">В меню</button>
+   		 	</span>
+   		 </p>
+   		</form>
+	</div>
+</body>
+</html>

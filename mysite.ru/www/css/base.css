@@ -1,0 +1,49 @@
+.blogging {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border: 1px solid black;
+   	}
+.one_question{
+	border: 1px solid black;
+	}
+.like{
+	background: url(like.jpg);
+	width: 40px;
+	height: 38px;
+	}
+.dislike{
+	background: url(dislike.jpg);
+	width: 40px;
+	height: 38px;
+	}
+.popular{
+	margin-left: 30px;
+	}
+.askName{
+	font-size: 40pt;
+	}
+.bartop{
+	margin-top: 10px;
+	text-align: center;
+	}
+.av_image{
+	margin-left: 10px;
+	margin-top: 10px;
+	}
+.user_name{
+	margin-top: 10px;
+	}
+.user_settings{
+	margin-right: 10px;
+	}
+.question_image_small{
+	padding-top: 20px;
+	margin-left: 10px
+	}
+.question_text{
+	margin-top: 18px;
+	}
+.like_field{
+	text-align: center;
+	margin-left: 10px;
+	}
